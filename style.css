@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3276b1;
+    height: 7em;
+    position: fixed;
+    width: 100%; /* Pour que le header occupe toute la largeur */
+    top: 0; /* Pour que le header reste fixé en haut */
+}
+
+body {
+    margin: 0;
+    padding-top: 7em; /* Ajoutez cette ligne pour compenser la hauteur du header */
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles CSS pour la barre de navigation */
+nav {
+    background-color: #3276b1;
+}
+
+ul {
+    list-style: none; /* Supprime les puces des listes */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le rembourrage par défaut */
+}
+
+ul li {
+    display: inline; /* Les éléments de liste sont affichés en ligne */
+    margin-right: 30px; /* Espacement entre les éléments de la liste */
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+li a {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255); /* Couleurs des liens Nav Bar */
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div img {
+    display: block; /* L'image en bloc pour occuper tout l'espace disponible */
+    height: 112px; /* Ajustez cette valeur à la taille souhaitée */
+}
+
+footer {  
+    background-color: #3276b1;
+  }
+
+section img {
+    max-width: 60%;
+    height: 60%;
+}
