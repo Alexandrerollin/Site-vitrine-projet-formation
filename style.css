@@ -41,7 +41,7 @@ h1 {
 
 li a {
     font-size: 1.5em;
-    color: rgb(255, 255, 255); /* Couleurs des liens Nav Bar */
+    color: rgb(255, 255, 255); 
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ nav {
 
 header div img {
     display: block; /* L'image en bloc pour occuper tout l'espace disponible */
-    height: 112px; /* Ajustez cette valeur à la taille souhaitée */
+    height: 112px;
 }
 
 footer {  
@@ -77,4 +77,20 @@ section img {
 
 .conteneur-labo div {
     width: 50%;
+}
+
+.conteneur-concurrents {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.conteneur-concurrents div {
+    width: 100%;
+}
+
+.conteneur-concurrents img {
+    max-width: 100%;
+    width: 90%;
+    height: 80%;
 }
