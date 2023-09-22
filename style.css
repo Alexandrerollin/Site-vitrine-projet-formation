@@ -12,7 +12,7 @@ header {
 body {
     margin: 0;
     padding-top: 7em; /* Ajoutez cette ligne pour compenser la hauteur du header */
-    background-color: rgb(211, 211, 211);
+    background-color: #faf8fb;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -52,17 +52,13 @@ nav {
 
 header div img {
     display: block; /* L'image en bloc pour occuper tout l'espace disponible */
-    height: 112px;
+    height: 110px;
 }
 
 footer {  
+    color: white;
     background-color: #3276b1;
   }
-/* 
-section img {
-    max-width: 60%;
-    height: 60%;
-} */
 
 /* Disposition images Biologie et vétérinaire  */
 
@@ -157,12 +153,7 @@ section img {
 }
 
 .conteneur-charte .img8 {
-    grid-column: 2 / span 2;
-    grid-row: 4;
-}
-
-.conteneur-charte .img9 {
-    grid-column: 5 / span 2;
+    grid-column: 4 / span 2;
     grid-row: 4;
 }
 
@@ -427,4 +418,53 @@ section img {
     grid-row: 4;
     width: 100%;
     height: 90%;
+}
+
+/* Bordure des images */
+
+img {
+    border: 1px solid black;
+}
+
+/* Formulaire + bouton page suivante  */
+
+.formulaire {
+    border: 2px solid black;
+    margin: 0em 35em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.formulaire h2 {
+    font-size: 2em;
+}
+
+.formulaire p {
+    font-size: 1.2em;
+}
+
+.inscription {
+    margin-top: 3em;
+    background-color: #ff6363;
+    color: rgb(0, 0, 0);
+    width: 7em;
+    height: 2em;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagesuivante {
+    margin: 3em 0em;
+    background-color: #ff6363;
+    color: rgb(0, 0, 0);
+    width: 7em;
+    height: 2em;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
 }
