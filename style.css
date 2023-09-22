@@ -438,7 +438,7 @@ img {
 }
 
 .formulaire h2 {
-    font-size: 2em;
+    color: white;
 }
 
 .formulaire p {
@@ -467,4 +467,96 @@ img {
     font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
+}
+
+h2 {
+    font-size: 2em;
+    color: #1414e4;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #1414e4;
+}
+
+.idee {
+    border: 2px solid black;
+    margin: 0em 20em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.idee h2 {
+    color: white;
+}
+
+.presentation-winlabo {
+    border: 2px solid black;
+    margin: 0em 30em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.presentation-winlabo h2 {
+    color: white;
+}
+
+.objectifs {
+    border: 2px solid black;
+    margin: 0em 30em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.objectifs h2 {
+    color: white;
+}
+
+.droits {
+    border: 2px solid black;
+    margin: 0em 25em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.droits h2 {
+    color: white;
+}
+
+.presentation-backend {
+    border: 2px solid black;
+    margin: 0em 20em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.presentation-backend h2 {
+    color: white;
+}
+
+.presentation-frontend {
+    border: 2px solid black;
+    margin: 0em 20em;
+    padding-bottom: 2em;
+    margin-top: 5em;
+    background-color: #3276b1;
+    color: white;
+}
+
+.presentation-frontend h2 {
+    color: white;
 }
