@@ -165,3 +165,75 @@ section img {
     grid-column: 5 / span 2;
     grid-row: 4;
 }
+
+/* Backend Disposition */
+
+.connexion {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.connexion img {
+    max-width: 100%;
+    width: 80%;
+    height: 80%;
+}
+
+.connexion div {
+    width: 50%;
+}
+
+.indesirable {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.indesirable img {
+    max-width: 100%;
+    width: 90%;
+    height: 80%;
+}
+
+.indesirable div {
+    width: 50%;
+}
+
+.MLD img {
+    width: 67%;
+}
+
+.BDD {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.BDD img {
+    width: 80%;
+    height: 80%;
+}
+
+.BDD div {
+    width: 50%;
+}
+
+.SQL {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.SQL img {
+    width: 80%;
+    height: 80%;
+}
+
+.SQL div {
+    width: 50%;
+}
+
+/* Frontend disposition */
